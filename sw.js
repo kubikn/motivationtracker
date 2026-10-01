@@ -1,6 +1,6 @@
 // Service Worker: macht die App offline nutzbar.
 // Seite: erst Netz, sonst Cache. Dateien mit Hash, Bilder und Schriften: erst Cache, dann Netz.
-const CACHE = 'mt-v2';
+const CACHE = 'mt-v3';
 // Relative Pfade, damit die App auch in einem Unterordner (GitHub Pages) funktioniert.
 const ROOT = self.registration.scope;
 const SHELL = [
